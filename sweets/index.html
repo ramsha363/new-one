@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       
+
+</head>
+<style>
+   .n:hover{
+  background-color: #fcb416 !important;
+    color:#074842!important;
+    font-size: 23px;
+    transition: background-color 0.5s;
+transition: font-size 0.3s;
+   }
+    .img{
+        margin: 70px auto;
+    }
+
+    h5{
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    }
+
+    .btn-cart {
+        border-radius: 20px;
+        width: 150px;
+        color: #fcb416;
+        background-color: #074842;
+        border: #074842;
+    }
+    .btn-cart:hover{ 
+        background-color: #074842;
+        color: #fcb416;
+        
+    }
+
+
+.card {
+        border-radius: 18px;
+        overflow: hidden;
+        position: relative;
+        transition: transform 0.3s;
+    }
+
+    .card-img-top {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+.card:hover {
+        border: 3px solid #074842; /* Change the color and width of the border as needed */
+        transition: border 0.3s ease-in-out;
+        box-shadow: 0 4px 8px rgba(187, 85, 85, 0.1);
+        transform: scale(1.05);
+       
+        
+        
+}
+
+
+
+.card-details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #074842;
+    color: white;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+    
+}
+
+
+.card:hover .card-details {
+    transform: translateY(0);
+    height: 50%;
+}
+
+.navbar{
+    background-color: #074842;
+}
+
+.bakery:hover{
+  opacity: 0.7;
+  transition: opacity ease in 1s;
+  height: 130PX;
+  }
+
+
+
+  html{
+  scroll-behavior: smooth;
+}
+.info{
+    font-family: 'Copse';font-size: 22px;
+}
+.w{
+    font-family: 'Copse';
+    font-weight: bolder;
+    font-style: italic;
+}
+footer{
+   background-color: #074842;
+   color: #fcb416;
+}
+.foot1{
+  font-family:  'Chela One';
+}
+.foot1:hover{
+  font-size: 30px;
+  transition: font-size ease-in 0.5s;
+}
+.footp:hover{
+color: #FFC436;
+transition: ease-incolr 0.2s;
+}
+
+
+
+</style>
+
+<body>
+
+
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid" >
+          <a class="navbar-brand ms-5 mt-4 z-n1 position-absolute p-5 " href="#" style="color: #fcb416;"><img src="img/ThynkCafe__1_-removebg-preview.png" alt="" height="130px" width="150PX"></a>
+          <button  class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span   class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fs-5 n" href="#about"  style="color: #fcb416;">About Us</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link  fs-5 n" aria-current="page" href="#bakery"  style="color: #fcb416;">Bakery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 n" href="#sweets"  style="color: #fcb416;">Sweets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 n" href="#gift"  style="color: #fcb416;">Gifts</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link fs-5 n" href="form.html"  style="color: #fcb416;">Contact  Us</a>
+              </li>
+
+             
+         
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+<!-- carousel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/car5.jpg" class="d-block w-100" alt="..." height="700px">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/car1.webp" class="d-block w-100" alt="..." height="700px">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/car 4.jpg" class="d-block w-100" alt="..." height="700px">
+            
+          </div>
+         
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- carousel -->
+
+
+<!-- ABOUT US -->
+
+      <div id="about" class="container mx-auto">
+        <div class="row justify-content-center">
+            <h1 class="mt-5 d-flex mx-auto justify-content-center w" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000" style="font-size: 80px ;">WELCOME TO SWEETS SHOP</h1>
+            <hr>
+            <p class="info"  data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000" >SWEETS SHOP was established in 1960 from East-Pakistan and in Karachi 1979 to meet the demands of high profile customers and to produce high quality bakery and nimco products. Baking mouthwatering products requires an adamant attitude, unmatched craftsmanship and passion for perfection.</p>
+            <p class="info"  data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000"> Where sweetness meets creativity. Discover our journey, our passion for baking, and what makes us unique. Our mission is simple: to sweeten your moments with irresistible treats made from the heart. We believe in creating desserts that not only satisfy your cravings but also bring joy to every bite.</p>
+            <p class="info"  data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">“Exciting Things are Happening at SWEETS SHOP!”  </p>
+
+            <p class="info"  data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000"> “At SWEETS SHOP, we’re more than just delicious sweets and treats. We love bringing our community together through fun and tasty events! Here’s a sneak peek at what’s coming up. We hope to see you there!”</p>
+            <div class="col-lg-3 col-md-3 cols-sm-2 bakery" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000" ><img src="img/about3.jpg" alt=""  height="300px" width="100%"></div>
+            <div class="col-lg-3 col-md-3 cols-sm-2 bakery"  data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000"><img src="img/about4.png" alt=""  height="300px" width="100%"></div>
+            <div class="col-lg-3 col-md-3 cols-sm-2 bakery" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000" ><img src="img/about2.jpg" alt=""  height="300px" width="100%"></div>
+            <div class="col-lg-3 col-md-3 cols-sm-2 bakery" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000" ><img src="img/about1.webp" alt=""  height="300px" width="100%"></div>
+            
+        </div>
+    </div>
+    
+<br><br>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-5">
+<h1 class="text-center mx-auto" style="color: #074842; font-size: 50px;font-family: 'Copse';font-weight: bolder;" data-aos="fade-down"
+data-aos-easing="ease-out-sine"
+data-aos-duration="2000" id="bakery">BAKERY</h1>
+
+</div>
+</div>
+<hr>
+
+<div class="container mt-5 mx-auto">
+    <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-2 cols-sm-2 bakery"  data-aos="fade-down"
+        data-aos-easing="ease-out-sine"
+        data-aos-duration="2000" ><a href="#cake"><img src="img/cakes.png" alt="" height="120px" width="100%"></a></div>
+        <div class="col-lg-2 col-md-2 cols-sm-2 bakery"  data-aos="fade-down"
+        data-aos-easing="ease-out-sine"
+        data-aos-duration="2000"><a href="#Biscuit"><img src="img/biscuits.png" alt=""  height="120px" width="100%"></a></div>
+        <div class="col-lg-2 col-md-2 cols-sm-2 bakery"  data-aos="fade-down"
+        data-aos-easing="ease-out-sine"
+        data-aos-duration="2000"><a href="#bread"><img src="img/bread.png" alt=""  height="120px" width="100%"></a></div>
+        <div class="col-lg-2 col-md-2 cols-sm-2 bakery"  data-aos="fade-down"
+        data-aos-easing="ease-out-sine"
+        data-aos-duration="2000"><a href="#cupcakes"><img src="img/CUPCAKES.PNG" alt=""  height="120px" width="100%"></a></div>
+    </div>
+   
+</div>
+    
+
+<!-- Biscuits modal -->
+
+
+  
+
+
+  <!-- Biscuits -->
+  <div class="container">
+    <!-- <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12"> -->
+
+
+    <div class="img" data-aos="fade-down"
+    data-aos-easing="ease-out-sine"
+    data-aos-duration="2000">
+    <img src="img/Bread bun and rusk header page.png" style="width: 100%; border-radius: 60px;" id="bread">
+    </div>
+</div>
+<!-- </div></div> -->
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-5">
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/white rusk.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>White Rusk</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+
+                             
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $10</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/BrownBread.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Brown Bread </b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $18</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/GarlicBread.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Garlic Bread</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $10</button>
+                    </div>
+                </div>
+            </div>               
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/PitaBread.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Pita Bread</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $20</button>
+                    </div>
+                </div>
+            </div>                
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/white rusk.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>White Rusk</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $50</button>
+                    </div>
+                </div>
+            </div>        
+    
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/BrownBread.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Brown Bread </b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $30</button>
+                    </div>
+                </div>
+            </div> 
+      
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/Brioche Buns.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Brioche Buns</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $60</button>
+                    </div>
+                </div>
+            </div>             
+
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/Brioche Buns.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Brioche Buns</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $70</button>
+                    </div>
+                </div>
+            </div>     
+
+        </div>
+</div>
+
+
+<!-- cakes -->
+
+<div class="container">
+<!-- <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12"> -->
+
+
+<div class="img" data-aos="fade-down"
+data-aos-easing="ease-out-sine"
+data-aos-duration="2000">
+<img src="img/Bakery cake header.png" style="width: 100%; border-radius: 60px;" id="cake">
+</div>
+</div>
+<!-- </div></div> -->
+
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-5">
+
+        <div class="col">
+            <div class="card" style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/Chocolatechip Cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Chocolate Chip Cake</b></h5>
+                    <br>
+                    <p class="card-text">
+                         <h4 style="text-align: center;">2-Pounds</h4></p>
+                    <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                </div>
+                
+                <div class="mb-5 d-flex justify-content-around">
+                    
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/black forest cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Black Forest Cake</b></h5>
+                    <p class="card-text">3-Pounds</p>-
+                </div>
+                <br>
+
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+
+
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/coffee delight cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Coffee Delight</b></h5>
+                    <p class="card-text"> 2-Pounds
+                        </p>
+                </div>
+                <br>
+       
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/double fudge cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Double Fudge Cake </b></h5>
+                    <p class="card-text">3-Pounds </p>
+                </div>
+                <br>
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/malt cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Malt Cake</b></h5>
+                    <p class="card-text">1.5-Pounds</p>
+                </div>
+                <br>
+
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/red velvet cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Red Velvet Cake</b></h5>
+                    <p class="card-text">3.5-Pounds</p>
+                </div>
+               
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/bounty cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Bounty Cake</b></h5>
+                    <p class="card-text">2-Pounds</p>
+                </div>
+                <br>
+           
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $190</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/Special fudge Cake.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b> Special Fudge Cake</b></h5>
+                    <p class="card-text">2-Pounds</p>
+                </div>
+           
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            <br>
+                            <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $190</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    
+
+       
+
+
+    </div>
+</div>
+
+
+<!-- Biscuits -->
+
+
+
+<div class="container">
+    <!-- <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12"> -->
+
+
+    <div class="img" data-aos="fade-down"
+    data-aos-easing="ease-out-sine"
+    data-aos-duration="2000">
+    <img src="img/header biscuits.png" style="width: 100%; border-radius: 60px;" id="Biscuit">
+    </div>
+</div>
+<!-- </div></div> -->
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-5">
+
+            <div class="col">
+                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/cake rusk.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Cake Rusk</b></h5>
+                        <br>
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <br>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        
+                        <button class="btn btn-danger btn-cart">Price $23</button>
+                    </div>
+                </div>
+            </div>
+
+
+        
+                    <div class="col">
+                        <div class="card" style="height: 100% ;" data-aos="fade-down"
+                        data-aos-easing="ease-out-sine"
+                        data-aos-duration="2000">
+                            <img src="img/chocolate-icing-biscuit.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Chocolate Icing </b></h5>
+                                <br>
+                                <p class="card-text">
+                                     <h4 style="text-align: center;">250 gm</h4></p>
+                                <div class="card-details">
+                                <p>
+                                    <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                        <br>
+                                        <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-5 d-flex justify-content-around">
+                                
+                                <button class="btn btn-danger btn-cart">Price $30</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+               
+                
+                            <div class="col">
+                                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                data-aos-easing="ease-out-sine"
+                                data-aos-duration="2000">
+                                    <img src="img/Chocolate Biscuit.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><b>Chocolate Biscuit</b></h5>
+                                        <br>
+                                        <p class="card-text">
+                                             <h4 style="text-align: center;">250 gm</h4></p>
+                                        <div class="card-details">
+                                        <p>
+                                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                <br>
+                                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                        </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-5 d-flex justify-content-around">
+                                        
+                                        <button class="btn btn-danger btn-cart">Price $20</button>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                        
+                                    <div class="col">
+                                        <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                        data-aos-easing="ease-out-sine"
+                                        data-aos-duration="2000">
+                                            <img src="img/Zeera Biscuit.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><b>Zera Biscuit</b></h5>
+                                                <br>
+                                                <p class="card-text">
+                                                     <h4 style="text-align: center;">250 gm</h4></p>
+                                                <div class="card-details">
+                                                <p>
+                                                    <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                        <br>
+                                                        <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                                </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="mb-5 d-flex justify-content-around">
+                                                
+                                                <button class="btn btn-danger btn-cart">Price $45</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                            <div class="col">
+                                                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                                data-aos-easing="ease-out-sine"
+                                                data-aos-duration="2000">
+                                                    <img src="img/Chocolate Marble Biscuit.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><b>Chocolate Marble</b></h5>
+                                                        <br>
+                                                        <p class="card-text">
+                                                             <h4 style="text-align: center;">250 gm</h4></p>
+                                                        <div class="card-details">
+                                                        <p>
+                                                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                                <br>
+                                                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                                        </p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="mb-5 d-flex justify-content-around">
+                                                        
+                                                        <button class="btn btn-danger btn-cart">Price $22</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           
+                                        
+                                                    <div class="col">
+                                                        <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                                        data-aos-easing="ease-out-sine"
+                                                        data-aos-duration="2000">
+                                                            <img src="img/Nan Khatai.png" class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"><b>Nan khatai</b></h5>
+                                                                <br>
+                                                                <p class="card-text">
+                                                                     <h4 style="text-align: center;">250 gm</h4></p>
+                                                                <div class="card-details">
+                                                                <p>
+                                                                    <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                                        <br>
+                                                                        <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                                                </p>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="mb-5 d-flex justify-content-around">
+                                                                
+                                                                <button class="btn btn-danger btn-cart">Price $38</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                
+                                                            <div class="col">
+                                                                <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                                                data-aos-easing="ease-out-sine"
+                                                                data-aos-duration="2000">
+                                                                    <img src="img/Chocolate-Sesame-Biscuits.png" class="card-img-top" alt="...">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title"><b>Chocolate-Sesame-Biscuits</b></h5>
+                                                                        <br>
+                                                                        <p class="card-text">
+                                                                             <h4 style="text-align: center;">250 gm</h4></p>
+                                                                        <div class="card-details">
+                                                                        <p>
+                                                                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                                                <br>
+                                                                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                                                        </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="mb-5 d-flex justify-content-around">
+                                                                        
+                                                                        <button class="btn btn-danger btn-cart">Price $45</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                           
+                                                        
+                                                                    <div class="col">
+                                                                        <div class="card" style="height: 100% ;" data-aos="fade-down"
+                                                                        data-aos-easing="ease-out-sine"
+                                                                        data-aos-duration="2000">
+                                                                            <img src="img/Egg Biscuits.png" class="card-img-top" alt="...">
+                                                                            <div class="card-body">
+                                                                                <h5 class="card-title"><b>Egg Biscuit</b></h5>
+                                                                                <br>
+                                                                                <p class="card-text">
+                                                                                     <h4 style="text-align: center;">250 gm</h4></p>
+                                                                                <div class="card-details">
+                                                                                <p>
+                                                                                    <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                                                                        <br>
+                                                                                        <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                                                                                </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="mb-5 d-flex justify-content-around">
+                                                                                
+                                                                                <button class="btn btn-danger btn-cart">Price $45</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                                                                                            
+
+
+            
+    </div>
+</div>
+
+
+<!-- cupcakes -->
+
+<div class="container">
+    <!-- <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12"> -->
+
+
+    <div class="img" data-aos="fade-down"
+    data-aos-easing="ease-out-sine"
+    data-aos-duration="2000">
+    <img src="img/brownies and cupcakes.webp" style="width: 100%; border-radius: 60px;" id="cupcakes">
+    </div>
+</div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-5">
+
+        <div class="col">
+            <div class="card" style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Triple Chocolate Brownie</b></h5>
+                    <br>
+                    <p class="card-text">
+                         
+                    <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Intensely chocolaty! Our Triple Chocolate Brownies contain melted chocolate, dark cocoa powder and chocolate ganache, a trio that creates an intensely chocolaty experience.<h6>
+                            <br>
+                           
+                    </p>
+                    </div>
+                </div>
+                
+                <div class="mb-5 d-flex justify-content-around">
+                    
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Mini Red Velvet Cupcake</b></h5>
+                    
+                </div>
+                <br>
+
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>A stellar cupcake! You won’t be sorry you tried our bestselling Red Velvet Cupcakes which consist of an all-butter red velvet sponge and are topped with a generous swirl of cream cheese frosting and red velvet crumbs for the final flourish.<h6>
+                            <br>
+                            
+                    </p>
+                    </div>
+
+
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Nutella Brownie</b></h5>
+                   
+                </div>
+                <br>
+       
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Our Soft gooey brownies loaded with Nutella topped with Nutella crunch and almonds to take it up a notch!<h6>
+                            <br>
+                            
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $130</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Mini Malt Cupcake</b></h5>
+                    
+                </div>
+                <br>
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Malt cupcakes have a chocolate sponge base and are topped with a deliciously malty whipped icing and finished with a Malteser on top.<h6>
+                            <br>
+                           
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Lotus Cupcake</b></h5>
+                    
+                </div>
+                <br>
+
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>A Rich milky Cupcake soaked with lotus milk and topped with a rich lotus icing and lotus drizzle.<h6>
+                            <br>
+                          
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Mini Double Chocolate Cupcake</b></h5>
+                    
+                </div>
+               
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Chocolate for the win! Fall in love with our Double Chocolate Cupcakes, made with an all butter chocolate sponge and topped with a swirl of fudgy chocolate frosting and crunchy chocolate sprinkles.<h6>
+                            <br>
+                           
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $160</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b>Double Fudge Brownie</b></h5>
+                  
+                </div>
+                <br>
+           
+
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Could chocolate get any more intense! Our Double Fudge Brownie combines a classic brownie sponge with chocolate fudge sauce which is then marbled with rows of white chocolate.<h6>
+                            <br>
+                          
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $190</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col">
+            <div class="card"  style="height: 100% ;" data-aos="fade-down"
+            data-aos-easing="ease-out-sine"
+            data-aos-duration="2000">
+                <img src="img/br8.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><b> Double Chocolate Cupcake</b></h5>
+                   
+                </div>
+           
+
+                <div class="card-details">
+                    <p>
+                        <h5>Ingredient</h5></h6>Chocolate for the win! Fall in love with our Double Chocolate Cupcakes, made with an all butter chocolate sponge and topped with a swirl of fudgy chocolate frosting and crunchy chocolate sprinkles.<h6>
+                            <br>
+                            
+                    </p>
+                    </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <button class="btn btn-danger btn-cart">Price $190</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    
+
+       
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Sweets Page -->
+<div class="container " id="sweets">
+    <div class="img">
+    <img src="img/title picture.webp" style="width: 100%; border-radius: 60px;">
+    </div>
+</div>
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-5">
+
+            <div class="col">
+                <div class="card" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Caramel Paira</h5>
+                        
+                        <p class="card-text">
+                             <h4 style="text-align: center;">250 gm</h4></p>
+                        <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$190</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mix Mithai</h5>
+                        <p class="card-text">
+                            <h4 style="text-align: center;">500 gm</p>
+                    </div>
+                    
+
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+
+
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$710</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card"  data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gulab Jaman</h5>
+                        
+                        <p class="card-text">
+                            <h4 style="text-align: center;">1kg
+                            </p>
+                    </div>
+                    
+                   
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$1420</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card"  data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kali jaman</h5>
+                        <p class="card-text">
+                            <h4 style="text-align: center;">750 gm </p>
+                    </div>
+                    
+                    
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$1065</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card"   data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 5.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">cham cham </h5>
+                        <p class="card-text">
+                            <h4 style="text-align: center;">500 gm</p>
+                    </div>
+                    
+                   
+
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$710</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card"  data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 6.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gulabi Cham Cham</h5>
+                        <p class="card-text">
+                            <h4 style="text-align: center;">1kg</p>
+                    </div>
+                   
+
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                            
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$1420</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card"   data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 7.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown cham Cham</h5>
+                       
+                        <p class="card-text">
+                            <h4 style="text-align: center;">500gm</p>
+                    </div>
+                    
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                 
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$710</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col">
+                <div class="card"   data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <img src="img/pic 8.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Malai Cham Cham</h5>
+                        
+                        <p class="card-text">
+                            <h4 style="text-align: center;">250gm</p>
+                    </div>
+                   
+
+                    <div class="card-details">
+                        <p>
+                            <h5>Ingredient</h5></h6>sugar, butter, eggs, vanilla , flour, baking powder, milk.<h6>
+                                
+                                <h5>Nutritinon</h5></h6>Calories 400, Sugars 35g, Protein 7g.<h6>
+                        </p>
+                        </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <button class="btn btn-danger btn-cart">$355</button>
+                    </div>
+                </div>
+            </div>
+
+
+           
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- gift page -->
+
+    <!-- <h1 id="gifts" class="mt-5 d-flex justify-content-center" style="color: #074842;   font-family: 'Calistoga';font-size: 50px;
+">GIFT HAMPERS</h1>
+<hr> -->
+
+<div class="container" id="gift">
+    <div class="img">
+    <img src="img/WhatsApp Image 2024-06-23 at 1.32.46 PM.jpeg" style="width: 100%; border-radius: 60px;">
+    </div>
+</div>
+    
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-5">
+    
+                <div class="col" class="card"  data-aos="fade-down"
+                data-aos-easing="ease-out-sine"
+                data-aos-duration="2000">
+                    <div class="card" style="height: 100%;">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.51 PM (1).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Whiteout Wonder</b></h5>
+                           
+                        </div>
+                        <div class="card-details">
+                            <p>
+                                <h6>Mix Butter Biscuit 200gm, Gift Pack Soan 250gm, Mix Nimco Mini, Gift Pack Roasted.</h6>
+                            </p>
+                            </div>
+                           
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">90$</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col" >
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000" >
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.51 PM.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Supreme Delight</b>
+                        </div>
+                         <div class="card-details">
+                            <p>
+                                <h6>Chips Paprika (mini pack),Gift Pack Assorted Sweets 150gm, Gift Pack Saon Papdi 250gm.</h6>
+                            </p>
+                            </div>
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">19$</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.52 PM.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Delux Teasure</b></h5>
+                          
+                        </div>
+                        
+                        <div class="card-details">
+                            <p>
+                                <h6>Mix Butter Biscuit Packed 200gm,Plan Salty Regular Pack,Crispino Frencheart
+                                    .</h6>
+                            </p>
+                            </div>
+                       
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">50$</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.53 PM.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Royal Treat</b></h5>
+                            
+                        </div>
+                        
+                        <div class="card-details">
+                            <p>
+                                <h6>Garlic Rusk 240gm,plain Salty Regular Pack,Gift Pack Nan Khata 60gm,Namkino.</h6>
+                            </p>
+                            </div>
+                        
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">190$</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.54 PM (1).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Royal Treasure Box</b></h5>
+                            
+                        </div>
+                        <br>
+                        <div class="card-details">
+                            <p>
+                                <h6>Royal Treasure Box include Assorted Sweets, Saan Papdi,Namkino Crunchy Nut Mix.</h6>
+                            </p>
+                            </div>
+                       
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">40$</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.54 PM.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Royal Namkino (Small)</b></h5>
+                            
+                        </div>
+                        <div class="card-details">
+                            <p>
+                                <h6>Royal Treasure Box include Assorted Sweets, Saan Papdi,Namkino Crunchy Nut Mix.</h6>
+                            </p>
+                            </div>
+                        
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">115$</button>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col">
+                    <div class="card" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.55 PM (1).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Essence Of Elegance</b></h5>
+                           
+                        </div>
+                        <br>
+                        <div class="card-details">
+                            <p>
+                                <h6>Royal Treasure Box include Assorted Sweets, Saan Papdi,Namkino Crunchy Nut Mix.</h6>
+                            </p>
+                            </div>
+                        
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">80$</button>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col">
+                    <div class="card" style="height: 100%;" class="card"  data-aos="fade-down"
+                    data-aos-easing="ease-out-sine"
+                    data-aos-duration="2000">
+                        <img src="img/WhatsApp Image 2024-06-23 at 1.32.55 PM.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b> Assorted Premium Dates</b></h5>
+                            
+                        </div>
+                        <div class="card-details">
+                            <p>
+                                <h6>12pcs Box Include Almond Dates,CashewNut Dates,Coconut Dates Hazelnut...</h6>
+                            </p>
+                            </div>
+                       
+                        <div class="mb-5 d-flex justify-content-around">
+                            <button class="btn btn-danger btn-cart">250$</button>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                
+    
+    
+            </div>
+        </div>
+<br>
+
+        <footer >
+            <div class="container ">
+              <div class="row ">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5"><img src="img/ThynkCafe__1_-removebg-preview.png" alt="" height="200px" width="200px"></div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5 mb-5 " style="border-right: solid 2px white;">
+                  <h3 class="foot1">contact us</h3>
+                  <p >Email:SWEETS_SHOP@gmail.com  
+                    <br>
+                  Contact:+933456789</p>
+                  
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-11 mt-5 mb-5 ms-4" style="list-style: none; border-right: solid 2px white;">
+                <ul style=" text-decoration:none">  <h3 class="foot1">links</h3></ul>
+                  <li class="footp"  ><a  href="#bakery" style="color: #fcb416; text-decoration: none;" >Bakery</a></li>
+                  <li class="footp" ><a  href="#sweets" style="color: #fcb416;text-decoration: none;" class="footp">Sweets</a></li>
+                  <li  class="footp"><a href="#gift" style="color: #fcb416;text-decoration: none;" class="footp">Gifts</a></li>
+                  <li  class="footp"><a href="#about" style="color: #fcb416;text-decoration: none;" class="footp">About Us</a</li>
+                  <li class="footp"><a  href="" style="color: #fcb416;text-decoration: none;"class="footp" ></a</li>
+
+                  <li class="footp"><a href="form.html" style="color: #fcb416;text-decoration: none;" class="footp">Contact Us </a></li>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-11 mt-5 mb-5 ms-4" style="list-style: none;">
+                  <h3 class="foot1">follow us</h3>
+                 <a href="https://www.facebook.com/login/" target="_blank"> <li><i class="fa-brands fa-facebook footp" style="color: #fcb416;"></i></li></a>
+                 <a href="https://twitter.com/login" target="_blank"><li><i class="fa-brands fa-twitter footp" style="color: #fcb416;"></i></li></a> 
+                 <a href="https://web.whatsapp.com/" target="_blank"> <li><i class="fa-brands fa-whatsapp footp" style="color: #fcb416;"></i></li></a>
+                  <a href="https://www.instagram.com/accounts/login/"  target="_blank"><li><i class="fa-brands fa-instagram footp" style="color: #fcb416;"></i></li></a>
+                 
+                </div>
+              </div>
+            </div>
+          
+          
+          
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+
+
+</body>
+</html>
